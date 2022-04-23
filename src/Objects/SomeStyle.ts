@@ -1,7 +1,7 @@
 import { SomeColor } from "./SomeColor";
 
 export interface SomeStyle {
-    isHidden: Boolean;
+    isHidden: boolean;
     cornerRadius: number;
     foregroundColor?: SomeColor;
     backgroundColor?: SomeColor;

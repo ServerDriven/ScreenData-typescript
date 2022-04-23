@@ -4,7 +4,7 @@ import { ViewDirectionAxis } from "../Types/ViewDirectionAxis";
 
 export interface SomeContainerView {
     id?: string;
-    isScrollable: Boolean;
+    isScrollable: boolean;
     axis: ViewDirectionAxis;
     views: [SomeView];
     style?: SomeStyle;
