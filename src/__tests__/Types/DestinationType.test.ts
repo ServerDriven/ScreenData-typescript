@@ -1,4 +1,4 @@
-import { DestinationType } from '../Types/DestinationType';
+import { DestinationType } from '../../Types/DestinationType';
 
 test(
     'DestinationType',
