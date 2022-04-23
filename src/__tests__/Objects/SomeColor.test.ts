@@ -9,6 +9,7 @@ test(
             blue: 0.314,
             alpha: 1
         };
+
         expect(someColor.red).toBe(0.25);
         expect(someColor.green).toBe(0.75);
         expect(someColor.blue).toBe(0.314);

@@ -22,9 +22,13 @@ test(
                 someView
             ]
         };
+
         expect(someContainer.isScrollable).toBe(true);
         expect(someContainer.axis).toBe(ViewDirectionAxis.vertical);
         expect(someContainer.views.length).toBe(1);
         expect(someContainer.views[0]).toBe(someView);
+
+        expect(someContainer.id).toBe(undefined);
+        expect(someContainer.style).toBe(undefined);
     }
 );

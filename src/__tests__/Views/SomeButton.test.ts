@@ -9,15 +9,12 @@ test(
             title: "Some Button",
             actionID: "001"
         };
+
         expect(someButton.title).toBe("Some Button");
         expect(someButton.actionID).toBe("001");
-        // expect(someViewType(someButton)).toBe(ViewType.button);
 
-        let expectedSomeView: SomeView = {
-            type: ViewType.button,
-            someButton: someButton
-        };
-
-        // expect(someView(someButton)).toStrictEqual(expectedSomeView)
+        expect(someButton.id).toBe(undefined);
+        expect(someButton.style).toBe(undefined);
+        expect(someButton.destination).toBe(undefined);
     }
 );
