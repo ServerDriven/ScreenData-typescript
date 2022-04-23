@@ -2,9 +2,9 @@ import { Destination } from "../Objects/Destination";
 import { SomeStyle } from "../Objects/SomeStyle";
 
 export interface SomeButton {
-    id?: String;
-    title: String;
-    actionID?: String;
+    id?: string;
+    title: string;
+    actionID?: string;
     destination?: Destination
     style?: SomeStyle
 }

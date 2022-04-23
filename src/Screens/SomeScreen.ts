@@ -2,8 +2,8 @@ import { SomeColor } from "../Objects/SomeColor";
 import { SomeView } from "../Objects/SomeView";
 
 export interface SomeScreen {
-    id?: String;
-    title: String;
+    id?: string;
+    title: string;
     backgroundColor: SomeColor
     headerView?: SomeView
     someView: SomeView

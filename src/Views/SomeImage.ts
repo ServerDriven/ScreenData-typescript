@@ -3,9 +3,9 @@ import { SomeStyle } from "../Objects/SomeStyle";
 import { ImageAspectScale } from "../Types/ImageAspectScale";
 
 export interface SomeImage {
-    id?: String;
-    url: String
-    assetName?: String
+    id?: string;
+    url: string
+    assetName?: string
     aspectScale: ImageAspectScale
     style?: SomeStyle
     destination?: Destination

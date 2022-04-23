@@ -1,7 +1,7 @@
 import { SomeStyle } from "../Objects/SomeStyle"
 
 export interface SomeText {
-    id?: String
-    title: String
+    id?: string
+    title: string
     style?: SomeStyle
 }

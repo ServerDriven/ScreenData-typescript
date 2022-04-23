@@ -3,9 +3,9 @@ import { SomeStyle } from "../Objects/SomeStyle";
 import { FontType } from "../Types/FontType";
 
 export interface SomeLabel {
-    id?: String;
-    title: String
-    subtitle?: String
+    id?: string;
+    title: string
+    subtitle?: string
     font: FontType
     style?: SomeStyle
     destination?: Destination

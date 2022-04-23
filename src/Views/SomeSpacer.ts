@@ -1,3 +1,3 @@
 export interface SomeSpacer {
-    size: Number;
+    size: number;
 }

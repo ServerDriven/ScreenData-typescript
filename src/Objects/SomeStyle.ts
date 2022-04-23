@@ -2,10 +2,10 @@ import { SomeColor } from "./SomeColor";
 
 export interface SomeStyle {
     isHidden: Boolean;
-    cornerRadius: Number;
+    cornerRadius: number;
     foregroundColor?: SomeColor;
     backgroundColor?: SomeColor;
-    width?: Number;
-    height?: Number;
-    padding: Number;
+    width?: number;
+    height?: number;
+    padding: number;
 }

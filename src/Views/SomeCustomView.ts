@@ -5,9 +5,9 @@ import { Destination } from "../Objects/Destination";
 import { SomeImage } from "./SomeImage";
 
 export interface SomeCustomView {
-    id?: String;
-    title?: String
-    subtitle?: String
+    id?: string;
+    title?: string
+    subtitle?: string
     style?: SomeStyle
     someImage?: SomeImage
     destination?: Destination
